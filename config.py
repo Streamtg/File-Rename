@@ -43,7 +43,7 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
-    DB_URL = os.environ.get("DB_URL","yoelbt:yoel123456@cluster0.caei0l9.mongodb.net")
+    DB_URL = os.environ.get("DB_URL","cluster0.caei0l9.mongodb.net")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
