@@ -54,7 +54,7 @@ class Config(object):
     FREE_UPLOAD_LIMIT = 999999999999999999999999999999999999999999999999 # calculation 6*1024*1024*1024=results
 
     # premium mode feature ✅
-    UPLOAD_LIMIT_MODE = True 
+    UPLOAD_LIMIT_MODE = False 
     PREMIUM_MODE = True 
     
     #force subs
